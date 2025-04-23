@@ -6,33 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
-						"type": "uint256"
-					}
-				],
-				"name": "get",
+				"inputs": [],
+				"name": "getResults",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getInfo",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -43,16 +24,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getResults2",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_hey",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "updateData",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -69,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"function.sol": "LeranFunction"
+			"view.sol": "View"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -83,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"function.sol": {
-			"keccak256": "0x47c4c1a335430d89db941e886817207a2ad36875025a16944b738264b7c84cba",
+		"view.sol": {
+			"keccak256": "0x5826638bbd57beec29fddc36f1dec3704661c4cb079a7d562adfaa094a91052b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d86f3f2d70ddeb343a80bbe1f1e296434b13806266cfe4aaf8fe1ff8b6dc18cd",
-				"dweb:/ipfs/QmTUnKtxtkX7c8sNzf41GeKB2HLb8xDmx9xWgLbWvtW5Ez"
+				"bzz-raw://f590a7bcdcf936efd4247237522f9aa4c45fc7fec987c709d09b337255f818a6",
+				"dweb:/ipfs/QmfRksfV1dC1NgvbEnbLJzbnjX5pAuMps7hzuwFpxuxRZX"
 			]
 		}
 	},
