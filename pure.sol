@@ -16,7 +16,7 @@ contract Pure {
         // uint256 total = num1 * num2;   // this line will cause an error because it is trying to read/access a state variable
 
         uint256 muNum1 = 30;
-        uint256 muNum2 = 50;
+        uint256 muNum2 = 60;
 
         return (muNum1, muNum2);
     }
