@@ -38,13 +38,13 @@ contract NestedMapping {
 
     function set(
         address _addr1,
-        uint -i,
+        uint _i,
         bool _boo
     ) public {
-        nested[_addr][_i] = _boo;
+        nested[_addr1][_i] = _boo;
     }
 
     function remove(address _addr1, uint _i) public {
-        delete nested[_addr][_i];
+        delete nested[_addr1][_i];
     }
 }
