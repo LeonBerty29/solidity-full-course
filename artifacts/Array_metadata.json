@@ -6,52 +6,59 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
+				"name": "examples",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "FirstFour",
-				"outputs": [
-					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "Myblockhash",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "callData",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "difficulty",
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,7 +71,39 @@
 			},
 			{
 				"inputs": [],
-				"name": "gasLimit",
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myFixedSizeArr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -77,80 +116,35 @@
 			},
 			{
 				"inputs": [],
-				"name": "gasprice",
-				"outputs": [
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "number",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "origin",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timestamp",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -167,7 +161,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"globalVariables.sol": "GlobalVariables"
+			"array.sol": "Array"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -181,12 +175,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"globalVariables.sol": {
-			"keccak256": "0x1418a5652273c6160fa5d26f038a607ab83937a702851053e2c5f93770f0da58",
+		"array.sol": {
+			"keccak256": "0x52bfb46e68a58f945391565e06ec36b2c5a2c47d3d8d79a72a5cf31f25854e56",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2be320afdc61a29d30f7a8a6daa0b3d04a77b750d24e16d38f3089d0c2287587",
-				"dweb:/ipfs/QmXnmdU6mYMDRpaN2hPtAMg9gnD4KkGzGKxpFmz9yRWs1b"
+				"bzz-raw://a49f59189d6f8780bde123192f0e221e1e99b73acf3e8572ba1c7ce64d1eabc6",
+				"dweb:/ipfs/QmXcvbVhmT1foFXLZnHYmxix6CDd16eMJGUczidBa39qPH"
 			]
 		}
 	},

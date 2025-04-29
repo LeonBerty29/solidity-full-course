@@ -13,7 +13,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "data",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,15 +25,22 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "loop",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
 					}
 				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -51,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"while-loops.sol": "WhileLoop"
+			"remove-from-array.sol": "ArrayRemovedByShifting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"while-loops.sol": {
-			"keccak256": "0x6090b6210fddcf6abe49ade703ac2b890728f5c23d60d8f6ba5ef3cb412fb623",
+		"remove-from-array.sol": {
+			"keccak256": "0x97bef5bb0678e985b63a38695835b96422dde4a2dc5f25e5975ffd16bc815831",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e61b681e47a31cb1c222de7387dea499b37f28bb9d0aaa1a7e43a927869670bc",
-				"dweb:/ipfs/QmReLvYgJu5M5HWYjFCPt1nxetJ6C5i1Uc4vrXRkXi8q2b"
+				"bzz-raw://790a7978a9d13e5d1706cdb33883a8e61620f4ec15b8d916d87abaa9a8845957",
+				"dweb:/ipfs/QmX2NCJRcuAq2ox48JcuSbt5WNtznmW7b6A5e1mwGsRZtE"
 			]
 		}
 	},
