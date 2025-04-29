@@ -17,7 +17,7 @@
 				"name": "get",
 				"outputs": [
 					{
-						"internalType": "enum Enum.ShippingStatus",
+						"internalType": "enum ShippingStatus",
 						"name": "",
 						"type": "uint8"
 					}
@@ -35,7 +35,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "enum Enum.ShippingStatus",
+						"internalType": "enum ShippingStatus",
 						"name": "_status",
 						"type": "uint8"
 					}
@@ -50,7 +50,7 @@
 				"name": "status",
 				"outputs": [
 					{
-						"internalType": "enum Enum.ShippingStatus",
+						"internalType": "enum ShippingStatus",
 						"name": "",
 						"type": "uint8"
 					}
@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"enums.sol": "Enum"
+			"import-enum.sol": "Enum"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -86,12 +86,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"enums.sol": {
-			"keccak256": "0x2d5eb6a2b739419b7304454bba4b4a3c6461cf7c69489f7c561ee32ea29a946b",
+		"enum-declaration.sol": {
+			"keccak256": "0xb5a04c44da05b153b8a758baa7cdc95a070da2c96af1b51a25ede33b1a0f523d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9814a956c0c64fc8cd87209da46e18c25767699724aef1d020485a4c6cfb3c7",
-				"dweb:/ipfs/QmSwsZpMv8a8ahAD1B4GJTq5a6tSbSkvuDXpvHpW9me217"
+				"bzz-raw://ed77c90ac66d848bf533e015ec065e21408286126779a55856f8e3734d4c0bb9",
+				"dweb:/ipfs/QmTg4PnzBTSXcweQZUsVdrrKzWwLTzaQBjkPyYm8ScrPn2"
+			]
+		},
+		"import-enum.sol": {
+			"keccak256": "0x64535291b4e9c074604f11be517d77a61affcc528ea52cf0f667be36549f66c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f44b97f512b2f13c21a7c767e24e2586929c50de53a3937be4b9f70982139da7",
+				"dweb:/ipfs/QmT1B9BtKgFdByMv19YKYeySfCHZF1eHShuPi4apTbAXWz"
 			]
 		}
 	},
